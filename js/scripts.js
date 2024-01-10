@@ -19,7 +19,7 @@ createApp({
 
                 let newEmail = res.data.response;
                 this.randomEmail.push(newEmail);
-    
+
             })
         }
         console.log(this.randomEmail)
